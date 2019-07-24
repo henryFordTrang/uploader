@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, shrink-to-fit=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="email=no">
+  <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <script src="http://wht.chaoxing.com/phone/js/common/jquery-1.11.3.min.js"></script>
+    <script src="./static/vivian.js"></script>
+    <script src="./static/app.utils.js"></script>
+  <script src="http://wht.chaoxing.com/phone/js/common/CXJSBridge.js"></script>
+  <script src="http://wht.chaoxing.com/phone/js/common/app.utils.js"></script>
+    
+    <title>vuePractice</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but vuePractice doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+
+ 
+
+  <script>
+ AppUtils.hideToolbar({toolbarType:'0'})
+  
+ try {
+  jsBridge.bind('CLIENT_GET_USERINFO', function (object) {   
+    localStorage.fid=object.fid;
+    localStorage.name=object.name;
+    localStorage.uid=object.uid;
+    
+    
+  });
+} catch (e) {}
+
+function getUserInfo () {
+  jsBridge.postNotification('CLIENT_GET_USERINFO', {
+    'accountKey': ''
+  });
+}
+
+// jsBridge.bind('CLIENT_USER_LOCATION', function(object){alert(object)});
+// function location(){
+  
+//   var cmd = "CLIENT_USER_LOCATION";    
+//   jsBridge.postNotification(cmd, {} ) ;
+// }
+
+// function player(url){
+//   //var mp4 = "http://file.m.superlib.com/PublicClass/mp4/20130917/1/123/1.mp4";
+//   //var mp4 = "http://file.m.superlib.com/PublicClass/mp4/20130917/1/123/1.mp4";
+//   var m3u8 = "http://file.m.superlib.com/PublicClass/m3u8/20130917/1/123/1/index_hd.m3u8";   
+//   var title = "麻将文化";
+//   jsBridge.postNotification('CLIENT_VIDEO_PLAYER', {"videolist":[{ "videopathm3u8":m3u8, "videopathmp4": url,"title":"麻将文化1"},{ "videopathm3u8":m3u8, "videopathmp4": url,"title":"麻将文化2"}],
+//     "title": "麻将"}
+//   ) ;
+//   }
+getUserInfo();
+
+
+  
+  </script>
+</html>

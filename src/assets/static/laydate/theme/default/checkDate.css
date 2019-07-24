@@ -1,0 +1,77 @@
+@charset "UTF-8";
+.top_menu{width: 100%;height: 0.9rem;top: 0;   margin: 0 auto;background: #ffffff;
+    position: fixed;   z-index: 99999;  }
+.top_menu .menu_l {  position: absolute;  top: 0;  z-index: 12;  display: block;  width: 0.9rem;  height: 0.9rem;
+    font-family: 'FontAwesome Regular', 'FontAwesome';  font-weight: 400;
+    font-style: normal;  font-size: 0.5rem;  color: #A1A1A1;  text-align: center;  }
+.top_menu .menu_l img{display: block;width: 0.2rem;height: 0.3rem;    margin: 0.25rem 0 0 0.3rem;}
+.top_menu span{  position: relative;  top: 0;  z-index: 10;display: block;  width: 100%;
+  /*   text-align: center;  */ text-overflow: ellipsis;  white-space: nowrap;  font-size: 0.35rem;  color: #797979;
+ background: -webkit-linear-gradient(top,transparent 50%,#d9d9d9 50%) center bottom no-repeat;  background-size: 100% 0.02rem; }
+.layui-laydate-footer{display: none;}
+.layui-laydate-header i.laydate-next-y{display: none;}
+.layui-laydate-header i.laydate-prev-y{display: none;}
+.layui-laydate-content table thead{background: #f7f7f7;font-size: 0.26rem;height: 0.7rem;}
+.layui-laydate-content thead th{ font-weight: bolder;color: #8B8B8D;  line-height: 0.6rem;  width: 0.64rem;  height: 0.64rem;  display: inline-block;  margin: 0 0.21rem;    font-size: 0.28rem;
+font-family:'PingFangSC-Regular';font-weight: 400;color: #FFF;}
+.layui-laydate-content{padding: 0;}
+.layui-laydate-content tbody th{line-height: 0.7rem;}
+.layui-laydate-header i{font-size: 0.3rem;color: #333333;}
+.layui-laydate-header i.laydate-next-m {right: 2.4rem;}
+/* table tbody tr td:nth-child(1),table tbody tr td:nth-child(7){color: #BBBBBB ! important;} */
+#test-n{overflow: hidden;}
+.layui-laydate-main {  width: 100%;  }
+.layui-laydate-header i {  position: absolute;  top: 0.2rem;
+    color: #FFF;  font-size: 0.3rem;  }
+.layui-laydate-header i.laydate-prev-y {
+    left: 0.3rem;  display: none;  }
+.layui-laydate-header i.laydate-prev-m {  left: 2.4rem;  }
+.layui-laydate-header i.laydate-next-y {  right: 0.3rem;  display: none;  }
+.layui-laydate-header i.laydate-next-m {  right: 2.4rem;  }
+.laydate-set-ym {  width: 100%;  text-align: center;  text-overflow: ellipsis;
+    overflow: hidden;  white-space: nowrap;  font-size: 0.3rem;color:#FFF !important;  }
+.layui-laydate-content td {  position: relative;  cursor: pointer;
+    font-size: 0.28rem;  display: inline-block;  border-radius: 50%;  width: 0.64rem;
+    height: 0.64rem;  margin: 0.1rem 0.21rem;  text-align: center;  line-height: 0.5rem;  }
+.layui-laydate-footer {
+    position: relative;  height: 0.92rem;  line-height: 0.52rem;  padding: 0.2rem 0.4rem;  display: none;  }
+.layui-laydate, .layui-laydate-hint {  background-color: #fff;  color: #666;  width: 100%;  }
+.layui-laydate-header {  border:none  }
+.layui-laydate-header i:hover, .layui-laydate-header span:hover {  color: #fff;  }
+.layui-laydate-content {  border-top: 0.02rem solid #e2e2e2;  margin-top: 0.1rem;  }
+.layui-laydate-content td {  color: #fff;font-weight: bolder;}
+.layui-laydate-content .laydate-day-next, .layui-laydate-content .laydate-day-prev {color: #C0C0C0;}
+.layui-laydate .layui-this {background-color: #108EE9 !important;color: #fff !important;}
+/* .layui-laydate .laydate-disabled, .layui-laydate .laydate-disabled:hover {  background: 0 0 !important;
+    color: #BBBBBB !important;  cursor: not-allowed !important;  -moz-user-select: none;  -webkit-user-select: none;  -ms-user-select: none  } */
+.laydate-theme-molv .layui-laydate-main {  width: 100%;  }
+/*日期样式修改 */
+.layui-laydate{vertical-align:top;}
+.layui-laydate, .layui-laydate-hint {border:none ! important;}
+.layui-laydate-content {border-top: none;margin-top: 0.06rem;}
+.layui-laydate-header {border: none;box-shadow: 0 0.02rem 0.08rem 0 rgba(0,0,0,0.1);}
+.layui-laydate-content table {border-collapse: collapse;border-spacing: 0;background: #F8F8F8;}
+.layui-laydate-content table thead {background: #F8F8F8;font-size: 0.26rem;height: 0.07rem;}
+.laydate-set-ym span{padding:0;font-size:0.33rem;}
+.layui-laydate-header i.laydate-next-m {right: 1.5rem;font-size: 0.38rem;}
+.layui-laydate-header i.laydate-prev-m {left: 1.5rem;font-size: 0.38rem;}
+.layui-laydate-content thead th{font-family:'宋体';width: 0.56rem;height: 0.7rem;}
+.layui-laydate-content td {font-family: '黑体';width: 0.6rem;height: 0.6rem;margin: 0.12rem 0.19rem;font-size: 0.3rem;line-height: 0.4rem;}
+.layui-laydate-content table,.layui-laydate-content table thead{background:#fff;width: 92%;margin-left: 4%;}
+.layui-laydate-header{box-shadow:none;}
+.layui-laydate .layui-this {background-color: #fff !important; color: #333 !important; }
+.layui-today{box-sizing: border-box;background: #FFF;color: #4E69EA ! important;}
+.layui-chooseDay{background-color: #eaeaea;color: #4E69EA !important;}
+.outAttSpan{font-size: 0.2rem;font-size: 0.2rem;float: left;font-family: "宋体";font-weight: normal;width: 0.98rem;
+margin-top: -0.46rem;margin-left: 0.05rem;height: 0.45rem;}
+.small-font{font-size: 0.24rem;-webkit-transform-origin-x: 0;-webkit-transform: scale(0.8);}
+.okAttImg{width:0.2rem;height:0.2rem;}
+.laydate,.layui-laydate,.layui-laydate-content table,.layui-laydate-content table thead{background:none !important;}
+.unAttSpan {font-size: 0.2rem;float: left;font-family: "宋体";font-weight: normal;margin-left: -0.1rem;margin-top: -0.04rem;
+  line-height: 0.26rem;text-align: center;vertical-align: middle;
+  width: 0.82rem;height: 0.26rem;
+  border-radius: 0.14rem;color:#fff;}
+.lackAttSpan{background: linear-gradient(66deg,rgba(255,135,146,1),rgba(246,48,99,1));}
+.leaveAttSpan{background:linear-gradient(66deg,rgba(167,132,238,1),rgba(169,106,237,1));}
+.lateAttSpan{background:linear-gradient(66deg,rgba(250,173,63,1),rgba(251,121,116,1));}
+

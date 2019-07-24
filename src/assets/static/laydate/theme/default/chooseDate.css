@@ -1,0 +1,54 @@
+@charset "UTF-8";
+.aabb{background: red;width: 100%;height: 0.6rem;}
+.top_menu{width: 100%;height: 0.9rem;top: 0;   margin: 0 auto;background: #ffffff;
+    position: fixed;   z-index: 99999;  }
+.top_menu .menu_l {  position: absolute;  top: 0;  z-index: 12;  display: block;  width: 0.9rem;  height: 0.9rem;
+    font-family: 'FontAwesome Regular', 'FontAwesome';  font-weight: 400;
+    font-style: normal;  font-size: 0.5rem;  color: #A1A1A1;  text-align: center;  }
+.top_menu .menu_l img{display: block;width: 0.2rem;height: 0.3rem;    margin: 0.25rem 0 0 0.3rem;}
+.top_menu span{  position: relative;  top: 0;  z-index: 10;  line-height: 0.9rem;  display: block;  width: 100%;
+  /*   text-align: center;  */ text-overflow: ellipsis;  white-space: nowrap;  font-size: 0.35rem;  color: #797979;
+ background: -webkit-linear-gradient(top,transparent 50%,#d9d9d9 50%) center bottom no-repeat;  background-size: 100% 0.02rem; }
+.layui-laydate-footer{display: none;}
+.layui-laydate-header i.laydate-next-y{display: none;}
+.layui-laydate-header i.laydate-prev-y{display: none;}
+.layui-laydate-content table{margin-left:4%;}
+.layui-laydate-content table thead{background: #f7f7f7;font-size: 0.26rem;height: 0.7rem;}
+.layui-laydate-content thead th{ font-weight: bolder;color: #8B8B8D;  line-height: 0.6rem;  width: 0.64rem;
+  height: 0.8rem;  display: inline-block;  margin: 0 0.21rem;    font-size: 0.3rem;
+font-family:'PingFangSC-Regular';font-weight: 400;color: rgba(139,139,141,1);width: 0.56rem;}
+.layui-laydate-content{padding: 0;}
+.layui-laydate-content tbody th{line-height: 0.7rem;}
+.layui-laydate-header i{font-size: 0.3rem;color: #333333;}
+.layui-laydate-header i.laydate-next-m {right: 2.4rem;}
+table tbody tr td:nth-child(1),table tbody tr td:nth-child(7){color: #BBBBBB ! important;}
+#test-n{overflow: hidden;}
+.layui-laydate-main {  width: 100%;  }
+.layui-laydate-header i {  position: absolute;  top: 0.2rem;
+    color: #333333;  font-size: 0.3rem;  }
+.layui-laydate-header i.laydate-prev-y {
+    left: 0.3rem;  display: none;  }
+.layui-laydate-header i.laydate-prev-m {  left: 1.5rem;  }
+.layui-laydate-header i.laydate-next-y {  right: 0.3rem;  display: none;  }
+.layui-laydate-header i.laydate-next-m {  right: 1.5rem;  }
+.laydate-set-ym {  width: 100%;  text-align: center;  text-overflow: ellipsis;
+    overflow: hidden;  white-space: nowrap;  font-size: 0.3rem;color:#000 !important;  }
+.layui-laydate-content td {  position: relative;  cursor: pointer;
+    font-size: 0.28rem;  display: inline-block;  border-radius: 50%;  width: 0.64rem;
+    height: 0.64rem;  margin: 0.2rem 0.18rem;  text-align: center;  line-height: 0.41rem;  }
+.layui-laydate-footer {
+    position: relative;  height: 0.92rem;  line-height: 0.52rem;  padding: 0.2rem 0.4rem;  display: none;  }
+.layui-laydate, .layui-laydate-hint {  background-color: #fff;  color: #666;  width: 100%;  }
+.layui-laydate-header {  border:none  }
+.layui-laydate-header i:hover, .layui-laydate-header span:hover {  color: #333333;  }
+.layui-laydate-content {  border-top: 0.02rem solid #e2e2e2;  margin-top: 0.1rem;  }
+.layui-laydate-content td {  color: #333;font-weight: bolder;width: 0.62rem;height: 0.62rem;}
+.layui-laydate-content .laydate-day-next, .layui-laydate-content .laydate-day-prev {  color: #999999;  }
+.layui-laydate .layui-this {background-color: #108EE9 !important;color: #fff !important;}
+.layui-laydate .laydate-disabled, .layui-laydate .laydate-disabled:hover {  background: 0 0 !important;
+    color: #BBBBBB !important;  cursor: not-allowed !important;  -moz-user-select: none;  -webkit-user-select: none;  -ms-user-select: none  }
+.laydate-theme-molv .layui-laydate-main {  width: 100%;  }
+.layui-laydate .layui-this0 {
+  background-color: #108EE9 !important;
+  color: #fff !important;
+}
