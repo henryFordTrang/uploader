@@ -12,7 +12,7 @@
     "echarts": "^4.2.0-rc.2",
     "m-share": "^1.0.1",
     "metismenu": "^3.0.3",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "normalize.css": "^8.0.1",
     "vant": "^2.0.1",
     "vue": "^2.5.17",
